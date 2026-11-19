@@ -3,17 +3,17 @@
 Proyecto práctico desarrollado en **SwiftUI** dentro de **Xcode 14.3.1** (en máquina virtual con macOS Ventura) para la asignatura **ETPS4** de la **Universidad Tecnológica de El Salvador (UTEC)**[cite: 2, 3].
 
 ## Información general
-- **Asignatura:** ETPS4[cite: 2, 3]
+- **Asignatura:** ETPS4
 - **Docente:** Ing. Orlando Girón
-- **Evaluación:** 4.ª Evaluación Ordinaria / Examen Parcial 4[cite: 2, 3]
+- **Evaluación:** 4.ª Evaluación Ordinaria / Examen Parcial 4
 - **Dispositivo de referencia:** iPhone 14 Pro (iOS 16.2)
-- **Autor / Usuario:** 93Cast *(reemplazar con tu nombre completo y carnet)*[cite: 3, 4]
+- **Autor / Usuario:** Carlos Daniel Castillo Sosa 29-2971-2023
 
 ## Características implementadas
-- **Encabezado institucional y navegación:** Muestra el logotipo de la UTEC (`logo` en `Assets.xcassets`), materia, título del parcial, datos del alumno y menú de navegación[cite: 3, 4, 8].
-- **Consumo de `movies.json`:** Carga de datos desde el `Bundle` con decodificación mediante `Codable` y `JSONDecoder`, ampliado a **24 películas** (4 originales + 20 agregadas)[cite: 1, 3].
-- **Pantalla de listado y barra inferior:** Visualización de películas con miniatura, título, año, género y barra inferior de navegación[cite: 3, 4].
-- **Pantalla de detalle:** Muestra póster, nombre de la película, año de estreno, categoría, cantidad de estrellas según el campo `star` del JSON y sinopsis[cite: 1, 4].
+- **Encabezado institucional y navegación:** Muestra el logotipo de la UTEC (`logo` en `Assets.xcassets`), materia, título del parcial, datos del alumno y menú de navegación.
+- **Consumo de `movies.json`:** Carga de datos desde el `Bundle` con decodificación mediante `Codable` y `JSONDecoder`, ampliado a **24 películas** (4 originales + 20 agregadas).
+- **Pantalla de listado y barra inferior:** Visualización de películas con miniatura, título, año, género y barra inferior de navegación.
+- **Pantalla de detalle:** Muestra póster, nombre de la película, año de estreno, categoría, cantidad de estrellas según el campo `star` del JSON y sinopsis.
 
 ## Estructura principal del proyecto
 ```text
